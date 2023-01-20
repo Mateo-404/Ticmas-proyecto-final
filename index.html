@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Mateo Gariboglio" />
+	<title>Portfolio Mateo Gariboglio</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+  <!--Boostrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+		<header>
+			<nav class="navbar navbar-expand-lg bg-body-tertiary">
+				<div class="container-fluid">
+				  <a class="navbar-brand" href="#">Mateo Gariboglio</a>
+				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mx-auto">
+					  <li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Inicio</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					  </li>
+					  <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						  +
+						</a>
+						<ul class="dropdown-menu">
+						  <li><a class="dropdown-item" href="#">Action</a></li>
+						  <li><a class="dropdown-item" href="#">Another action</a></li>
+						  <li><hr class="dropdown-divider"></li>
+						  <li><a class="dropdown-item" href="#">Something else here</a></li>
+						</ul>
+					  </li>
+				  </div>
+				</div>
+			  </nav>
+		</header>
+
+	<!--Home section--->
+	<section class="inicio" id="inicio">
+		<!--
+		<div>
+			<img id="yo" src="/img/20230109_075147.png" alt="">
+		</div>
+		-->
+		<div class="container text-center">
+			<div class="row text-center">
+				<div class="Col">
+					<h1>Mateo Gariboglio</h1>
+				</div>
+				<div class="Col">
+					<p>Estudiante</p>
+				</div>
+				<div class="Col-4">
+					<a  href="https://drive.google.com/file/d/1voR6yJ3XQSo1fHJCx7HtV-U5QMgyNF-o/view?usp=sharing" class="home-btn">Descargar CV</a>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+	<!--container--->
+	<section class="container">
+		<div class="title" id="redes">
+			<h2>Redes Sociales</h2>
+		</div>
+
+		<div class="row-items">
+			<div class="container-box">
+				<div class="container-img">
+					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAX1JREFUSEvNlU0yBEEQhb+5gZUtToATYGOLA4jgBm6AEwg7O5zAWFrhBDgB4QJ+LkB8olLUVJTumkXHyIiKmumuypf5MvP1iIFtNLB/ZgawCBwCK2l1JfoIuE7TPnG2lsEecJ5O3QPvtYvpvQHMAWvp/z5wkSOUAF54AHS8nZy3lMmMx8AysJoHVAKIrmMvGHmf7QLHwAewAzwDl4As/FgJ8AK41iueBTZCTc6vgU3gBngFFoC7tC/9BfCVinWQAcjxbaXYOjsDPoH5FLnPrMdv4GUGApjyUQZgtFJm2vKsmY10Wq+N7OzUADq6SvyG8/AX3Sb38W5qADNxHmrtLHVvRcb/D2BwiqIlbUE5tzU1f58AT0VLN1GkppRt6sWYgShybdp7AfoGTSmJrMqu8rkAtrSrOsn29hbgJLZIRT7wOu2VihA7I1EZzajFdO68eL9T7KKAIdcCdcl1aFbsvXId0RqJhfaiHdRlKqmBOJTKyoTN7JPZwnvTmcEz+AZJz2cZU1H38wAAAABJRU5ErkJggg=="/>
+				</div>
+				<h4>Instagram</h4>
+			</div>
+
+			<div class="container-box">
+				<div class="container-img">
+					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAOdJREFUSEvllWENwjAQhb8pAAk4AAeAA1AAEnCCBXAACgAHSEACKIC85Eqabg0s1y0h3K82ub5vd++6VnQcVcf69A44A1NnVdKYB420gqdTvKabAzyAg2UvgEFL8Fs3B9gDaxPdAaufA9yTFg1LVyAPriY6MQ8uth8BAsqjGyCPxskHfPRAYjM7FEY3HJI3EleVITbANtq7ALluCRimzQVQe06AWreMvIovqQug1gmgOJoHWncCaPJKsGIV/DFAIxdfNE2OTFRorQlSNOV95UHLP0MtPWtyiQcnNr7/J9Pbmnyviiub4As/E0wZX0UvUwAAAABJRU5ErkJggg=="/>
+				</div>
+				<h4>Linkedin</h4>
+			</div>
+
+			<div class="container-box">
+				<div class="container-img">
+					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAbRJREFUSEvNleExBEEQRt9lQATIQAbIgAgQASJABIiADMiAiwARkAEioN5V99aYnZ37dVXXVVNXtzvTX/fr7tkZK7bZiv2zFgL7wDGwG+sbeANegHn8ToLoZbAN3AMK/BRON0JoL7w+AaeAwiObEjDaZ1ggvAWuJkI8B27C+VErm5aAEX5E1IcRea8XDOYB2AJ26kxaAqYsFpesFXR9dlQUeQU8ayaD1QK58TqwWAcPytfoepa4FFBoYbWAvM+AzXCah9xrIUXRs1/gDvBcU8DW08SjlQL/IptQqc+PMpCzm07CgYgsuIjMaplJwJkZ9taIFLCwdk9aZiEeMfXMdr4s0dcCoxTDm86NzN8LIIfQYso8h8z/NorvmzXIItsxdVvmO5250kl2nA59rkgiHtUgmZeHSiQWXwx5TXiF5Lzo1KvloJzo1qBNYSqFDMRlvTIb5+W96MAmIh+OenlJYWVu5GLNbIYjdQZ2z2MU8isOWIuykHnY68OhtMv0M3LuxqlJbgUtOsVEYtQ5jH4T5N+8q2oBmeaw6dD/sjbKbD8j97nLjsmaNUmuxSdz2fXQfb/yDP4AZJloGU7UfncAAAAASUVORK5CYII="/>
+				</div>
+				<h4>Whatsapp</h4>
+			</div>
+
+			<div class="container-box">
+				<div class="container-img">
+					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAR1JREFUSEvdleFNw0AMhb9MABsAG8AEwAawAZ2gMAl0ArpB2QCYAEaADdoJQB+ypVNIyjVRhFT/SZSz37OffU7DxNZMjM9+EVwAj8DxSNk+gBnwIk4pkQdHI8EzXKyTNsFXnJ4B7wOJToG3iP1JvqwgCdZR4tOOJFch8eFfBIn7ANxVkug7b/n2ViDofTjbqGvAqrrMbFeAA6KVsb0EHqil4AcBftnRF32eAUk2QWLvUuqtBGZjoH04j+xugUXxnlW+AuqfVVYTlL1IfZfx8SaeEkpc2s4EBpuh4EqmKYkkXZM2iEBQNS8r6LsrgwkqJ7a+ybWAbb//q8AxyyYOzT7jPnMrl7vI22gTx25UwZ2wX+t6bNad8fv1y5xEom9+ED0ZymZNKwAAAABJRU5ErkJggg=="/>
+				</div>
+				<h4>Correo Electrónico</h4>
+			</div>
+
+		</div>
+	</section>
+
+	<!--Sección de Habilidades--->
+	<section class="habilidades" id="habilidades">
+		<div class="title">
+			<h2>Habilidades</h2>
+		</div>
+		<div class="habilidades">
+			<div class="row row-cols-1 row-cols-md-3 g-4">
+				<div class="col">
+					<div class="card h-100">
+						<img src="/img/Frameworks/Word.png" class="card-img-top rounded mx-auto d-block" alt="...">
+						<div class="card-body">
+							<h5 class="card-title text-center">WORD</h5>
+						</div>
+						<div class="card-footer">
+							<small class="text-muted">
+								<div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress-bar w-100"></div>
+								</div>
+							</small>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+					  <img src="/img/Frameworks/Excel.png" class="card-img-top rounded mx-auto d-block" alt="Excel">
+					  <div class="card-body">
+						<h5 class="card-title text-center">EXCEL</h5>
+					  </div>
+					  <div class="card-footer">
+						<small class="text-muted">
+						  <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+							  <div class="progress-bar w-75"></div>
+							</div>
+						</small>
+					  </div>
+					</div>
+				  </div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="/img/Frameworks/Photoshop.png" class="card-img-top rounded mx-auto d-block" alt="...">
+						<div class="card-body">
+							<h5 class="card-title text-center">PHOTOSHOP</h5>
+						</div>
+						<div class="card-footer">
+							<small class="text-muted">
+								<div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress-bar w-100"></div>
+								</div>
+							</small>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="habilidades-2">
+		  <div class="row row-cols-1 row-cols-md-3 g-4">
+			<div class="col">
+			  <div class="card h-100">
+				<img src="/img/Frameworks/Html.png" class="card-img-top rounded mx-auto d-block" alt="...">
+				<div class="card-body">
+				  <h5 class="card-title text-center">HTML</h5>
+				</div>
+				<div class="card-footer">
+				  <small class="text-muted">
+					<div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+						<div class="progress-bar w-75"></div>
+					  </div>
+				  </small>
+				</div>
+			  </div>
+			</div>
+			<div class="col">
+				<div class="card h-100">
+				  <img src="/img/Frameworks/Css.png" class="card-img-top rounded mx-auto d-block" alt="...">
+				  <div class="card-body">
+					<h5 class="card-title text-center">CSS</h5>
+				  </div>
+				  <div class="card-footer">
+					<small class="text-muted">
+					  <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+						  <div class="progress-bar w-50"></div>
+						</div>
+					</small>
+				  </div>
+				</div>
+			  </div>
+			<div class="col">
+			  <div class="card h-100">
+				<img src="/img/Frameworks/Js.png" class="card-img-top rounded mx-auto d-block" alt="...">
+				<div class="card-body">
+				  <h5 class="card-title text-center">JAVASCRIPT</h5>
+				</div>
+				<div class="card-footer">
+				  <small class="text-muted">
+					<div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+						<div class="progress-bar w-50"></div>
+					  </div>
+					</small>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--Formación-->
+<section class="formacion-academica" id="formacion-academica">
+	<div class="title">
+		<h2>Formación Académica</h2>
+	</div>
+	<div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+	<div class="row">
+		<div class="col-4">
+		  <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+			<nav class="nav nav-pills flex-column">
+			  <a class="nav-link" href="#item-1">Título secundario</a>
+			  <a class="nav-link" href="#item-2">Título Universitario</a>
+			  </nav>
+			</nav>
+		  </nav>
+		</div>
+	  
+		<div class="col-8">
+		  <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+			<div class="titulos-academicos" id="item-1">
+				<div class="row">
+					<div class="col">
+						<h4 class="text-center">"Bachiller en economía y administración"</h4>
+						<h6 class="text-center">EESOPI 8161 MARIANO MORENO</h6>
+						<p class="text-center">Argentina / Santa Fe / Santa Clara de Buena Vista</p>
+						<p class="text-center">(2018-2022)</p>
+					</div>
+					<div class="col">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1696.1354732333998!2d-61.31792419942056!3d-31.763095242352563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b57f9b88267c5f%3A0xa340636cb2806374!2sEESOPI%208161%20%22Mariano%20Moreno%22!5e0!3m2!1ses!2sar!4v1674167894178!5m2!1ses!2sar" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="titulos-academicoss" id="item-2">
+			<div class="row">
+				<div class="col">
+					<h4 class="text-center">"Tecnicatura universitaria en programación"</h4>
+					<h6 class="text-center">UNIVERSIDAD TECNOLÓGICA NACIONAL DE RAFAELA</h6>
+					<p class="text-center">Argentina / Santa Fe / Rafaela</p>
+					<p class="text-center">(Fines del 2022-Actualidad)</p>
+				</div>
+				<div class="col">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1434.1468108157405!2d-61.47276853712569!3d-31.24855668019338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95caae59ddea8bad%3A0xacf907f1d169f205!2sUTN%20-%20Facultad%20Regional%20Rafaela%20-%20Casa%20central!5e0!3m2!1ses!2sar!4v1674169184758!5m2!1ses!2sar" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+</section>
+<!--Certificados-->
+<section class="certificados">
+	<div class="title">
+		<h2>Certificados</h2>
+	</div>
+	<ul class="nav nav-tabs" id="myTab" role="tablist">
+		<li class="nav-item" role="presentation">
+		  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Grasshoper</button>
+		</li>
+		<li class="nav-item" role="presentation">
+		  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Ticmas</button>
+		</li>
+		<li class="nav-item" role="presentation">
+		  <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+		</li>
+		<li class="nav-item" role="presentation">
+		  <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" disabled>Disabled</button>
+		</li>
+	  </ul>
+	  <div class="tab-content" id="myTabContent">
+		<div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">...</div>
+		<div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">pito</div>
+		<div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
+		<div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
+	  </div>
+</section>
+<!--destination section--->
+<section class="proyectos-personales" id="proyectos-personales">
+		<div class="title">
+			<h2>Mis Proyectos personales</h2>
+		</div>
+
+		<div id="carouselExampleCaptions" class="carousel slide">
+			<div class="carousel-indicators">
+			  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			 <!--<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>-->
+			</div>
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<img src="/img/Proyectos/Welt.jpg" class="d-block w-100" alt="...">
+				<div class="carousel-caption d-none d-md-block">
+				  <h5 class="text-center">Welt Restaurante</h5>
+				  <p>Proyecto de nivel secundario.</p>
+				  <a href="https://weltrestaurante.ga">
+					  <button type="button" class="btn btn-outline-warning">Visitar</button>
+				  </a>
+				</div>
+			  </div>
+			  <div class="carousel-item">
+				<img src="/img/Proyectos/Welt.jpg" class="d-block w-100" alt="...">
+				<div class="carousel-caption d-none d-md-block">
+				  <h5 class="text-center">Portfolio</h5>
+				  <p>Proyecto final de Ticmas.</p>
+				  <a href="#">
+					  <button type="button" class="btn btn-outline-warning">Visitar</button>
+				</div>
+			  </div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Next</span>
+			</button>
+		  </div>
+	</section>
+
+	<!-----------------------------------OJO-------------------------------------------->
+	
+	<!--PRUEBAS-->
+
+
+	<!--footer--->
+	<section id="contact">
+		<div class="footer">
+			<div class="main">
+				<div class="list">
+					<h4>Quick Links</h4>
+					<ul>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Terms & Conditions</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Help</a></li>
+						<li><a href="#">Tour</a></li>
+					</ul>
+				</div>
+
+				<div class="list">
+					<h4>Support</h4>
+					<ul>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Terms & Conditions</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Help</a></li>
+						<li><a href="#">Tour</a></li>
+					</ul>
+				</div>
+
+				<div class="list">
+					<h4>Contact Info</h4>
+					<ul>
+						<li><a href="#">98 West 21th Street</a></li>
+						<li><a href="#">New York NY 10016</a></li>
+						<li><a href="#">+1(123)-456-7890</a></li>
+						<li><a href="#">info@mydomain.com</a></li>
+						<li><a href="#">+1(123)-456-7890</a></li>
+					</ul>
+				</div>
+
+				<div class="list">
+					<h4>Connect</h4>
+					<div class="social">
+						<a href="#"><i class='bx bxl-facebook' ></i></a>
+						<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+						<a href="#"><i class='bx bxl-twitter' ></i></a>
+						<a href="#"><i class='bx bxl-linkedin' ></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="end-text">
+			<p>Copyright ©2023 Derechos Reservados | Creado por Mateo Gariboglio</p>
+		</div>
+	</section>
+
+	<!--links de js--->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
