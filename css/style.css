@@ -47,7 +47,10 @@ section{
 	border-color: #0A0A0A;
 	border-bottom: dashed;
 }
-
+/*Navbar*/
+#nav-superior{
+	background: none;
+}
 /* Inicio */
 .inicio{
 	position: relative;
@@ -57,7 +60,6 @@ section{
 	background-size: cover;
 	background-position: center;
 	display: grid;
-	grid-template-columns: repeat(1, 1fr);
 	align-items: center;
 	padding: 0%;
 	border: none;
@@ -107,9 +109,23 @@ section{
 	background-color: #f0eded;
 	padding: 2% 0% 2% 0;
 }
+#typed {
+	display: block;
+}
 /*About*/
+/*Esto es para el tamaño de los botones*/
 .sobre-mi i{
 	font-size: 197%;
+}
+#soy {
+	font-size: 280%;
+	padding-top: 4%;
+}
+.sobre-mi-p {
+	padding-top: 2%;
+}
+#imagen-mia {
+	box-shadow: 0px 1px 10px rgba(0,0,0);
 }
 
 /* Habilidades */
@@ -124,7 +140,16 @@ section{
 .habilidades-2 {
 	margin-top: 5rem;
 }
-
+/* Animación carta */
+#carta-habilidades {
+	box-shadow: 0px 1px 10px rgba(0,0,0.2);
+	cursor: default;
+	transition: all 400ms ease;
+}
+#carta-habilidades:hover {
+	box-shadow: 5px 5px 20px rgba(0,0,0.4);
+	transform: translateY(-3%);
+}
 /* Formación Académica */
 .titulos-academicos {
 margin-bottom: 10%;
@@ -183,6 +208,7 @@ margin-bottom: 10%;
 	  --p-font: 1rem;
 	  transition: .2s;
 	}
+	
 }
 
 @media (max-width: 1040px){
@@ -204,24 +230,67 @@ margin-bottom: 10%;
 		margin-bottom: 12px;
 	}
 }
-
+@media  (min-width: 1185px){
+	/*Sobre mi*/
+	#soy {
+		padding-top: 8%;
+	}
+	#sobre-mi-botones {
+		padding-top: 10%;
+	}
+	.sobre-mi-p {
+		padding-top: 5%;
+	}
+}
 @media (max-width: 575px){
-	.list{
-		width: 100%;
-	}
-	.newsletter form{
-		width: 350px;
-	}
 	:root{
 		--big-font: 3.8rem;
 	  --h2-font: 1.8rem;
 	  transition: .2s;
 	}
+	/*Inicio*/
+	.inicio h1{
+		font-size: 310%;
+		line-height: 1.2;
+		color: var(--bg-color);
+		font-family: 'Paytone One', sans-serif;
+		letter-spacing: 3px;
+		margin-bottom: 20px;
+		text-align: center;
+		width: 100%;
+	}
 	.text{
 		text-align: center;
 	}
-	.home{
-		height: 85vh;
-		transition: .2s;
+	/*Formación-Laboral*/
+	#nav-formación {
+		display: none;
+	}
+	/*Certificados*/
+	.titulo-cert{
+		font-family: 'Roboto Slab', serif;
+		font-weight: 700;
+		color: var(--bg-color);
+		margin-top: 15%;
+		margin-left: -36%;
+		font-size: 100%;
+	}
+	#ticmas {
+		margin-top: 18%;
+		margin-left: -45%;
+		font-size: 78%;
+	}
+	#Boton-certificado{
+		margin-top: 1%;
+		margin-left: -36%;
+		font-size: 74%;
+	}
+	/*Proyectos*/
+	.proyectos-personales img{
+		height: 400px;
+	}
+	#nombre-proyecto{
+		display: none;
 	}
 }
+	

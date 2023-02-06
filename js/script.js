@@ -1,3 +1,14 @@
+/*Nav-Bar*/
+var nav = document.querySelector('nav');
+
+window.addEventListener('scroll', function () {
+  if (window.pageYOffset > 100) {
+	nav.classList.add('bg-dark', 'shadow');
+  } else {
+	nav.classList.remove('bg-dark', 'shadow');
+  }
+});
+
 /*Letras que aparecen y desaparecen*/
 const typed = new Typed('.typed', {
     strings: ['<p>Estudiante</p>', '<p>Programador</p>', '<p>Diseñador web</p>'],

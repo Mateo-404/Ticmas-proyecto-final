@@ -14,9 +14,9 @@
 </head>
 <body class="bg-light">
 	<header>
-		<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="nav-superior">
 			<div class="container-fluid">
-			  <a class="navbar-brand" href="#"><></a>
+				<!-- <a class="navbar-brand" href="#"><></a> -->
 			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			  </button>
@@ -36,11 +36,11 @@
 				  </li>
 				</ul>
 				<ul class="navbar-nav mr-auto">
-				  <li class="nav-item dropstart">
+				  <li class=" nav-item dropstart">
 					<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 						<span class="navbar-toggler-icon"></span>
 					  </a>
-					  <ul class="dropdown-menu">
+					  <ul class="dropdown-menu dropdown-menu-dark">
 						<li><a class="dropdown-item" href="#certificados">Certificados</a></li>
 						<li><hr class="dropdown-divider"></li>
 						<li><a class="dropdown-item" href="#proyectos-personales">Proyectos</a></li>
@@ -53,12 +53,12 @@
 		</nav>
 	</header>
 
-	<!--Home section--->
+	<!--Inicio (Home)--->
 	<section class="inicio" id="inicio">
-		<div class="container text-center">
+		<div class="container-fluid">
 			<div class="row text-center">
 				<div class="Col">
-					<h1 class="text-">Mateo Gariboglio</h1>
+					<h1>Mateo Gariboglio</h1>
 				</div>
 				<div class="col">
 					<span class="typed"></span>
@@ -66,12 +66,11 @@
 				<div class="Col">
 					<a  href="https://drive.google.com/file/d/1voR6yJ3XQSo1fHJCx7HtV-U5QMgyNF-o/view?usp=sharing" class="home-btn text-decoration-none">Descargar CV</a>
 				</div>
-				
 			</div>
 		</div>
 	</section>
 
-	<!--container--->
+	<!--About--->
 	<section class="sobre-mi" id="sobre-mi">
 		<div class="title" id="redes">
 			<h2>Acerca de Mi</h2>
@@ -79,74 +78,37 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-auto">
-					<img src="img\yo.jpg" class="img-thumbnail" alt="Mateo Gariboglio img">
+					<img src="img\yo.jpg" class="img-thumbnail" alt="Mateo Gariboglio img" id="imagen-mia">
 				</div>
 				<div class="col text-center">
-					<h2>Soy Mateo Gariboglio</h2>
+					<h2 id="soy">Soy Mateo Gariboglio</h2>
 					<p>Estudiante</p>
-					<p>Habito en la localidad de <a href="https://goo.gl/maps/BwsZijZJjRVgCdzH6">Santa Clara de Buena Vista</a> y me dedico principalmente al diseño y creación de sitios web. Se destaca la facilidad a la hora de comunicarme y comprender los deseos de los clientes a la hora de diseñar el sitio web.</p>
-					<p>También poseo grandes habilidades en el manejo de Photoshop,  ya que poseo años de experiencia.</p>
-					<p>Mi esfuerzo al momento de realizar estas tareas es enorme ya que intento constantemente inovarme y reinventarme para darle un horizonte nuevo a mi trabajo creando y desarrollando objetos únicos.</p>
-					<div class="row align-items-center">
+					<p class="sobre-mi-p">Habito en la localidad de <a href="https://goo.gl/maps/BwsZijZJjRVgCdzH6" class="link-success">Santa Clara de Buena Vista</a> y me dedico principalmente al diseño y creación de sitios web. Se destaca la facilidad a la hora de comunicarme y comprender los deseos de los clientes a la hora de diseñar y crear el sitio web.</p>
+					<p class="sobre-mi-p">También poseo grandes habilidades en el manejo de Photoshop,  ya que poseo años de experiencia.</p>
+					<p class="sobre-mi-p">Mi esfuerzo al momento de realizar estas tareas es enorme ya que intento constantemente inovarme y reinventarme para darle un horizonte nuevo a mi trabajo creando y desarrollando objetos únicos.</p>
+					<div class="row align-items-center" id="sobre-mi-botones">
 						<div class="col">
-							<a href="" class="me-4 link-secondary">
+							<a href="https://api.whatsapp.com/send?phone=543425370985" class="me-4 link-success">
 								<i class="bi bi-whatsapp"></i>
 							  </a>
-							  <a href="" class="me-4 link-secondary">
+							  <a href="mailto:mateogariboglio@hotmail.com" class="me-4 link-success">
 								<i class="bi bi-envelope-plus"></i>
 							  </a>
-							  <a href="" class="me-4 link-secondary">
+							  <a href="https://www.instagram.com/matu_gariboglio/" class="me-4 link-success">
 								<i class="bi bi-instagram"></i>
 							  </a>
-							  <a href="" class="me-4 link-secondary">
+							  <a href="https://www.linkedin.com/in/mateo-gariboglio/" class="me-4 link-success">
 								<i class="bi bi-linkedin"></i>
 							  </a>
-							  <a href="" class="link-secondary">
+							  <a href="https://github.com/TheNineteenn" class="me-4 link-success">
 								<i class="bi bi-github"></i>
-							  </a>
+							</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!--<section class="container">
-		<div class="title" id="redes">
-			<h2>Redes Sociales</h2>
-		</div>
-
-		<div class="row-items">
-			<div class="container-box">
-				<div class="container-img">
-					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAX1JREFUSEvNlU0yBEEQhb+5gZUtToATYGOLA4jgBm6AEwg7O5zAWFrhBDgB4QJ+LkB8olLUVJTumkXHyIiKmumuypf5MvP1iIFtNLB/ZgawCBwCK2l1JfoIuE7TPnG2lsEecJ5O3QPvtYvpvQHMAWvp/z5wkSOUAF54AHS8nZy3lMmMx8AysJoHVAKIrmMvGHmf7QLHwAewAzwDl4As/FgJ8AK41iueBTZCTc6vgU3gBngFFoC7tC/9BfCVinWQAcjxbaXYOjsDPoH5FLnPrMdv4GUGApjyUQZgtFJm2vKsmY10Wq+N7OzUADq6SvyG8/AX3Sb38W5qADNxHmrtLHVvRcb/D2BwiqIlbUE5tzU1f58AT0VLN1GkppRt6sWYgShybdp7AfoGTSmJrMqu8rkAtrSrOsn29hbgJLZIRT7wOu2VihA7I1EZzajFdO68eL9T7KKAIdcCdcl1aFbsvXId0RqJhfaiHdRlKqmBOJTKyoTN7JPZwnvTmcEz+AZJz2cZU1H38wAAAABJRU5ErkJggg=="/>
-				</div>
-				<h4>Instagram</h4>
-			</div>
-
-			<div class="container-box">
-				<div class="container-img">
-					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAOdJREFUSEvllWENwjAQhb8pAAk4AAeAA1AAEnCCBXAACgAHSEACKIC85Eqabg0s1y0h3K82ub5vd++6VnQcVcf69A44A1NnVdKYB420gqdTvKabAzyAg2UvgEFL8Fs3B9gDaxPdAaufA9yTFg1LVyAPriY6MQ8uth8BAsqjGyCPxskHfPRAYjM7FEY3HJI3EleVITbANtq7ALluCRimzQVQe06AWreMvIovqQug1gmgOJoHWncCaPJKsGIV/DFAIxdfNE2OTFRorQlSNOV95UHLP0MtPWtyiQcnNr7/J9Pbmnyviiub4As/E0wZX0UvUwAAAABJRU5ErkJggg=="/>
-				</div>
-				<h4>Linkedin</h4>
-			</div>
-
-			<div class="container-box">
-				<div class="container-img">
-					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAbRJREFUSEvNleExBEEQRt9lQATIQAbIgAgQASJABIiADMiAiwARkAEioN5V99aYnZ37dVXXVVNXtzvTX/fr7tkZK7bZiv2zFgL7wDGwG+sbeANegHn8ToLoZbAN3AMK/BRON0JoL7w+AaeAwiObEjDaZ1ggvAWuJkI8B27C+VErm5aAEX5E1IcRea8XDOYB2AJ26kxaAqYsFpesFXR9dlQUeQU8ayaD1QK58TqwWAcPytfoepa4FFBoYbWAvM+AzXCah9xrIUXRs1/gDvBcU8DW08SjlQL/IptQqc+PMpCzm07CgYgsuIjMaplJwJkZ9taIFLCwdk9aZiEeMfXMdr4s0dcCoxTDm86NzN8LIIfQYso8h8z/NorvmzXIItsxdVvmO5250kl2nA59rkgiHtUgmZeHSiQWXwx5TXiF5Lzo1KvloJzo1qBNYSqFDMRlvTIb5+W96MAmIh+OenlJYWVu5GLNbIYjdQZ2z2MU8isOWIuykHnY68OhtMv0M3LuxqlJbgUtOsVEYtQ5jH4T5N+8q2oBmeaw6dD/sjbKbD8j97nLjsmaNUmuxSdz2fXQfb/yDP4AZJloGU7UfncAAAAASUVORK5CYII="/>
-				</div>
-				<h4>Whatsapp</h4>
-			</div>
-
-			<div class="container-box">
-				<div class="container-img">
-					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAR1JREFUSEvdleFNw0AMhb9MABsAG8AEwAawAZ2gMAl0ArpB2QCYAEaADdoJQB+ypVNIyjVRhFT/SZSz37OffU7DxNZMjM9+EVwAj8DxSNk+gBnwIk4pkQdHI8EzXKyTNsFXnJ4B7wOJToG3iP1JvqwgCdZR4tOOJFch8eFfBIn7ANxVkug7b/n2ViDofTjbqGvAqrrMbFeAA6KVsb0EHqil4AcBftnRF32eAUk2QWLvUuqtBGZjoH04j+xugUXxnlW+AuqfVVYTlL1IfZfx8SaeEkpc2s4EBpuh4EqmKYkkXZM2iEBQNS8r6LsrgwkqJ7a+ybWAbb//q8AxyyYOzT7jPnMrl7vI22gTx25UwZ2wX+t6bNad8fv1y5xEom9+ED0ZymZNKwAAAABJRU5ErkJggg=="/>
-				</div>
-				<h4>Correo Electrónico</h4>
-			</div>
-
-		</div>
-	</section>
-	-->
 
 	<!--Sección de Habilidades--->
 	<section class="habilidades" id="habilidades">
@@ -156,7 +118,7 @@
 		<div class="habilidades">
 			<div class="row row-cols-1 row-cols-md-3 g-4">
 				<div class="col">
-					<div class="card h-100">
+					<div class="card h-100" id="carta-habilidades">
 						<img src="https://res.cloudinary.com/dbhtiims6/image/upload/f_auto,q_auto/v1674597358/Portfolio-Ticmas/Frameworks/Word_v8qfbd.png" class="card-img-top rounded mx-auto d-block" alt="Word">
 						<div class="card-body">
 							<h5 class="card-title text-center">WORD</h5>
@@ -171,7 +133,7 @@
 					</div>
 				</div>
 				<div class="col">
-					<div class="card h-100">
+					<div class="card h-100" id="carta-habilidades">
 					  <img src="https://res.cloudinary.com/dbhtiims6/image/upload/f_auto,q_auto/v1674597358/Portfolio-Ticmas/Frameworks/Excel_imc3xp.png" class="card-img-top rounded mx-auto d-block" alt="Excel">
 					  <div class="card-body">
 						<h5 class="card-title text-center">EXCEL</h5>
@@ -186,7 +148,7 @@
 					</div>
 				  </div>
 				<div class="col">
-					<div class="card h-100">
+					<div class="card h-100" id="carta-habilidades">
 						<img src="https://res.cloudinary.com/dbhtiims6/image/upload/f_auto,q_auto/v1674597358/Portfolio-Ticmas/Frameworks/Photoshop_sstd7k.png" class="card-img-top rounded mx-auto d-block" alt="Photoshop">
 						<div class="card-body">
 							<h5 class="card-title text-center">PHOTOSHOP</h5>
@@ -206,7 +168,7 @@
 		<div class="habilidades-2">
 		  <div class="row row-cols-1 row-cols-md-3 g-4">
 			<div class="col">
-			  <div class="card h-100">
+			  <div class="card h-100" id="carta-habilidades">
 				<img src="https://res.cloudinary.com/dbhtiims6/image/upload/f_auto,q_auto/v1674597358/Portfolio-Ticmas/Frameworks/Html_n5pjfp.png" class="card-img-top rounded mx-auto d-block" alt="Html">
 				<div class="card-body">
 				  <h5 class="card-title text-center">HTML</h5>
@@ -221,7 +183,7 @@
 			  </div>
 			</div>
 			<div class="col">
-				<div class="card h-100">
+				<div class="card h-100" id="carta-habilidades">
 				  <img src="https://res.cloudinary.com/dbhtiims6/image/upload/f_auto,q_auto/v1674597358/Portfolio-Ticmas/Frameworks/Css_vdu5vd.png" class="card-img-top rounded mx-auto d-block" alt="Css">
 				  <div class="card-body">
 					<h5 class="card-title text-center">CSS</h5>
@@ -236,7 +198,7 @@
 				</div>
 			  </div>
 			<div class="col">
-			  <div class="card h-100">
+			  <div class="card h-100" id="carta-habilidades">
 				  <img src="https://res.cloudinary.com/dbhtiims6/image/upload/f_auto,q_auto/v1674597358/Portfolio-Ticmas/Frameworks/Js_biofij.png" class="card-img-top rounded mx-auto d-block" alt="Javascript">
 				  <div class="card-body">
 					<h5 class="card-title text-center">JAVASCRIPT</h5>
@@ -260,7 +222,7 @@
 		</div>
 		<div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
 		<div class="row">
-			<div class="col-4">
+			<div class="col-4" id="nav-formación">
 			  <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
 				<nav class="nav nav-pills flex-column">
 				  <a class="nav-link" href="#item-5">Título secundario</a>
@@ -269,38 +231,39 @@
 				</nav>
 			  </nav>
 			</div>
-		
-			<div class="col-8">
+			<div class="col-sm">
 			  <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
 				<div class="titulos-academicos" id="item-5">
-					<div class="row">
-						<div class="col">
-							<h4 class="text-center">"Bachiller en economía y administración"</h4>
-							<h6 class="text-center">EESOPI 8161 MARIANO MORENO</h6>
-							<p class="text-center">Argentina / Santa Fe / Santa Clara de Buena Vista</p>
-							<p class="text-center">(2018-2022)</p>
-						</div>
-						<div class="col">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1696.1354732333998!2d-61.31792419942056!3d-31.763095242352563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b57f9b88267c5f%3A0xa340636cb2806374!2sEESOPI%208161%20%22Mariano%20Moreno%22!5e0!3m2!1ses!2sar!4v1674167894178!5m2!1ses!2sar" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					<div class="conteiner-flex">
+						<div class="row">
+							<div class="col">
+								<h4 class="text-center">"Bachiller en economía y administración"</h4>
+								<h6 class="text-center">EESOPI 8161 MARIANO MORENO</h6>
+								<p class="text-center">Argentina / Santa Fe / Santa Clara de Buena Vista</p>
+								<p class="text-center">(2018-2022)</p>
+							</div>
+							<div class="col-sm">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1696.1354732333998!2d-61.31792419942056!3d-31.763095242352563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b57f9b88267c5f%3A0xa340636cb2806374!2sEESOPI%208161%20%22Mariano%20Moreno%22!5e0!3m2!1ses!2sar!4v1674167894178!5m2!1ses!2sar" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapas"></iframe>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="titulos-academicoss" id="item-2">
 				<div class="row">
-					<div class="col">
+					<div class="col-sm">
 						<h4 class="text-center">"Tecnicatura universitaria en programación"</h4>
 						<h6 class="text-center">UNIVERSIDAD TECNOLÓGICA NACIONAL DE RAFAELA</h6>
 						<p class="text-center">Argentina / Santa Fe / Rafaela</p>
 						<p class="text-center">(Fines del 2022-Actualidad)</p>
 					</div>
-					<div class="col">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1434.1468108157405!2d-61.47276853712569!3d-31.24855668019338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95caae59ddea8bad%3A0xacf907f1d169f205!2sUTN%20-%20Facultad%20Regional%20Rafaela%20-%20Casa%20central!5e0!3m2!1ses!2sar!4v1674169184758!5m2!1ses!2sar" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					<div class="col-sm">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1434.1468108157405!2d-61.47276853712569!3d-31.24855668019338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95caae59ddea8bad%3A0xacf907f1d169f205!2sUTN%20-%20Facultad%20Regional%20Rafaela%20-%20Casa%20central!5e0!3m2!1ses!2sar!4v1674169184758!5m2!1ses!2sar" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapas"></iframe>
 					</div>
 				</div>
 			  </div>
 			</div>
-		  </div>
+		</div>
 	</section>
 
 	<!--Certificados-->
@@ -339,7 +302,7 @@
 				<div class="card-body">
 					<img src="https://res.cloudinary.com/dbhtiims6/image/upload/f_auto,q_auto/v1674684564/Portfolio-Ticmas/Certificados/Ticmas_jxbvyg.jpg" class="card-img" alt="Ticmas Academy">
 					<div class="card-img-overlay text-center">
-						<h1 class="titulo-cert text-uppercase">Ticmas Academy</h1>
+						<h1 class="titulo-cert text-uppercase" id="ticmas">Ticmas Academy</h1>
 						<!-- Button trigger modal -->
 						<button type="button" class="btn btn-outline-info btn-lg" id="Boton-certificado" data-bs-toggle="modal" data-bs-target="#exampleModal">
 							Visitar Certificado
@@ -378,7 +341,7 @@
 		</div>
 		<div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
 		<div class="row">
-			<div class="col-4">
+			<div class="col-4" id="nav-formación">
 			  <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
 				<nav class="nav nav-pills flex-column">
 				  <a class="nav-link" href="#item-3">M&A Deportes</a>
@@ -388,7 +351,7 @@
 			  </nav>
 			</div>
 		
-			<div class="col-8">
+			<div class="col">
 			  <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
 				<div class="titulos-academicos" id="item-3">
 					<div class="row">
@@ -401,8 +364,8 @@
 							<p class="text-center">• Experiencia con atención al público.</p>
 							<p class="text-center">• Creación de flyers para la venta de productos.</p>
 						</div>
-						<div class="col">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d848.0617066184243!2d-61.32091462612151!3d-31.76375323337262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b57fade5895adb%3A0x80722908943a34bd!2sMyA%20Deportes!5e0!3m2!1ses!2sar!4v1674276065774!5m2!1ses!2sar" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						<div class="col-sm">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d848.0617066184243!2d-61.32091462612151!3d-31.76375323337262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b57fade5895adb%3A0x80722908943a34bd!2sMyA%20Deportes!5e0!3m2!1ses!2sar!4v1674276065774!5m2!1ses!2sar" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapas"></iframe>
 						</div>
 					</div>
 				</div>
@@ -418,14 +381,15 @@
 						<p class="text-center">• Venta directa a clientes.</p>
 						<p class="text-center">• Montar y desmontar los puestos y stands, transportar, almacenar, cargar y descarga las mercancías para la venta</p>
 					</div>
-					<div class="col">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d713.1162473775667!2d-61.32277531167788!3d-31.765803666630053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b57f8535229f4b%3A0xe6dcaa9eb063b082!2sPileta%20de%20EESOPI%208161%20%22Mariano%20Moreno%22!5e0!3m2!1ses!2sar!4v1675588661209!5m2!1ses!2sar" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					<div class="col-sm text-center">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d713.1162473775667!2d-61.32277531167788!3d-31.765803666630053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b57f8535229f4b%3A0xe6dcaa9eb063b082!2sPileta%20de%20EESOPI%208161%20%22Mariano%20Moreno%22!5e0!3m2!1ses!2sar!4v1675588661209!5m2!1ses!2sar" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapas"></iframe>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!--destination section--->
+
+	<!--Proyectos personales--->
 	<section class="proyectos-personales" id="proyectos-personales">
 		<div class="title">
 			<h2>Mis Proyectos personales</h2>
@@ -437,25 +401,24 @@
 			  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
 			</div>
 			<div class="carousel-inner">
-			  <div class="carousel-item active">
-				<img src="https://res.cloudinary.com/dbhtiims6/image/upload/f_auto,q_auto/v1674597403/Portfolio-Ticmas/Proyectos/Welt_zdf3mk.jpg" class="d-block w-100" alt="Welt Restaurante">
-				<div class="carousel-caption d-none d-md-block">
-				  <h5 class="text-center">Welt Restaurante</h5>
-				  <p>Proyecto de nivel secundario.</p>
-				  <a href="https://weltrestaurante.ga">
-					  <button type="button" class="btn btn-outline-warning">Visitar</button>
-				  </a>
+				<div class="carousel-item active">
+					<img src="img\Proyectos\welt-original copy.jpg" class="d-block w-100" alt="Welt Restaurante">
+					<div class="carousel-caption d-md-block">
+					  <h5 class="text-center" id="nombre-proyecto">Welt Restaurante</h5>
+					  <p class="pi-proyecto">Proyecto de nivel secundario.</p>
+					  <a href="https://weltrestaurante.ga">
+						  <button type="button" class="btn btn-outline-warning">Visitar</button>
+					  </a>
+					</div>
 				</div>
-			  </div>
 			  <div class="carousel-item">
-				<img src="https://res.cloudinary.com/dbhtiims6/image/upload/f_auto,q_auto/v1674597403/Portfolio-Ticmas/Proyectos/Welt_zdf3mk.jpg" class="d-block w-100" alt="Portfolio Personal">
-				<div class="carousel-caption d-none d-md-block">
-				  <h5 class="text-center">Portfolio</h5>
-				  <p>Proyecto final de Ticmas.</p>
+				<img src="img\Proyectos\welt-original copy.jpg" class="d-block w-100" alt="Portfolio Personal">
+				<div class="carousel-caption d-md-block">
+				  <h5 class="text-center" id="nombre-proyecto">Portfolio</h5>
+				  <p class="pi-proyecto">Proyecto final de Ticmas.</p>
 				  <a href="#">
 					  <button type="button" class="btn btn-outline-warning">Visitar</button>
 				</div>
-			  </div>
 			</div>
 			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
 			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -483,6 +446,10 @@
 			<!-- Instagram -->
 			<a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/matu_gariboglio/" role="button"
 			 ><i class="bi bi-instagram"></i>
+			</a>
+			<!--Whatsapp-->
+			<a class="btn btn-outline-light btn-floating m-1" href="https://api.whatsapp.com/send?phone=543425370985" role="button"
+				><i class="bi bi-whatsapp"></i>
 			</a>
 	  
 			<!-- Linkedin -->
