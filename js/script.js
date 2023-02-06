@@ -1,13 +1,22 @@
 /*Nav-Bar*/
 var nav = document.querySelector('nav');
 
-window.addEventListener('scroll', function () {
-  if (window.pageYOffset > 100) {
+/*Solución Problema background no rellena todo el espacio*/
+if (screen.width < 1402) {
 	nav.classList.add('bg-dark', 'shadow');
-  } else {
-	nav.classList.remove('bg-dark', 'shadow');
-  }
-});
+}
+
+/*Cambio de navbar de transparente a negro*/
+if (screen.width >= 1402) {
+	window.addEventListener('scroll', function () {
+		if (window.pageYOffset > 100) {
+			nav.classList.add('bg-dark', 'shadow');
+	  } else {
+		  nav.classList.remove('bg-dark', 'shadow');
+		}
+	});
+	window.addEventListener("resize", cambiarNavbarClass);
+}
 
 /*Letras que aparecen y desaparecen*/
 const typed = new Typed('.typed', {
